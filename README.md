@@ -89,8 +89,8 @@ int main()
 }
 
 # Output:
-Enter a date (DD/MM/YYYY): 29/02/2024
-The date 29/02/2024 is valid.
+<img width="457" height="253" alt="image" src="https://github.com/user-attachments/assets/9fbf35be-89b1-43f2-bc31-27df36fcc3fd" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -165,9 +165,8 @@ int main()
 }
 
 # Output:
-Enter two numbers: 25 40
-Maximum value: 40
-Minimum value: 25
+<img width="425" height="308" alt="image" src="https://github.com/user-attachments/assets/28fafe41-d391-44b8-a624-02507a8c8265" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -215,35 +214,33 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 11: 
  Stop
 # Program:
-#include <stdio.h>
-float celsiusToFahrenheit(float celsius)
-{
-    return (celsius * 9.0 / 5.0) + 32.0;
-}
-float fahrenheitToCelsius(float fahrenheit)
-{
-    return (fahrenheit - 32.0) * 5.0 / 9.0;
-}
-
-int main()
-{
-    float celsius, fahrenheit;
-    printf("Enter temperature in Celsius: ");
-    scanf("%f", &celsius);
-    float tempF = celsiusToFahrenheit(celsius);
-    printf("%.2f Celsius = %.2f Fahrenheit\n", celsius, tempF);
-    printf("Enter temperature in Fahrenheit: ");
-    scanf("%f", &fahrenheit);
-    float tempC = fahrenheitToCelsius(fahrenheit);
-    printf("%.2f Fahrenheit = %.2f Celsius\n", fahrenheit, tempC);
-
-    return 0;
-}
+  #include <stdio.h>
+  float celsiusToFahrenheit(float celsius)
+  {
+      return (celsius * 9.0 / 5.0) + 32.0;
+  }
+  float fahrenheitToCelsius(float fahrenheit)
+  {
+      return (fahrenheit - 32.0) * 5.0 / 9.0;
+  }
+  
+  int main()
+  {
+      float celsius, fahrenheit;
+      printf("Enter temperature in Celsius: ");
+      scanf("%f", &celsius);
+      float tempF = celsiusToFahrenheit(celsius);
+      printf("%.2f Celsius = %.2f Fahrenheit\n", celsius, tempF);
+      printf("Enter temperature in Fahrenheit: ");
+      scanf("%f", &fahrenheit);
+      float tempC = fahrenheitToCelsius(fahrenheit);
+      printf("%.2f Fahrenheit = %.2f Celsius\n", fahrenheit, tempC);
+  
+      return 0;
+  }
 # Output:
-Enter temperature in Celsius: 25
-25.00 Celsius = 77.00 Fahrenheit
-Enter temperature in Fahrenheit: 98.6
-98.60 Fahrenheit = 37.00 Celsius
+<img width="428" height="312" alt="image" src="https://github.com/user-attachments/assets/ca9de362-476c-4daf-904f-603aa00f9318" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -336,13 +333,8 @@ int main()
     return 0;
 }
 # Output:
-Enter elements of 4x4 matrix:
-1  2  3  4
-5  6  7  8
-9  10 11 12
-13 14 15 16
-Spiral order of the matrix:
-1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
+<img width="482" height="447" alt="image" src="https://github.com/user-attachments/assets/119f200d-8afd-4e11-955c-e4488e1fd1b3" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -415,8 +407,8 @@ int main()
 }
 
 # Output:
-Enter a string: saveetha colege
-Converted string: SaveethA ColegE
+<img width="416" height="297" alt="image" src="https://github.com/user-attachments/assets/c1b599a4-61f3-4401-b6e0-cbfe2c428507" />
+
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
